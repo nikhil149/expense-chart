@@ -1,0 +1,93 @@
+span {
+  color: hsl(28, 10%, 53%);
+  font-size: 14px;
+}
+.expenseChart {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.expenseChart_topContainer {
+  border-radius: 5px;
+  background-color: hsl(10, 79%, 65%);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  height: 50px;
+}
+
+.expenseChart_topContainer__balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.expenseChart_topContainer__h1 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.expenseChart_topContainer__h3 {
+  font-size: 18px;
+  margin: 0;
+}
+.expenseChart_topContainer__h1,
+.expenseChart_topContainer__h3 {
+  color: white;
+}
+
+.expenseChart_bottomContainer {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.expenseChart_bottomContainer_chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.expenseChart_bottomContainer_chart_bar {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 4px;
+}
+
+.expenseChart_bottomContainer_chart_bar_max {
+  background-color: hsl(186, 34%, 60%);
+  border-radius: 4px;
+}
+
+.expenseChart_bottomContainer_chart_barContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+}
+
+.expenseChart_bottomContainer__monthCntainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px 0 0;
+  align-items: flex-end;
+}
+
+.expenseChart_bottomContainer__h1 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.expenseChart_bottomContainer__lastDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expenseChart_bottomContainer__lastDiv_h {
+  margin: 0;
+}
